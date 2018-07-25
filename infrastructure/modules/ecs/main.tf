@@ -34,7 +34,7 @@ resource "null_resource" "aws_ecs_task" {
   # If it isn't a webservice start a once-off task
   # Terraform doesn't have a run-task capability as it's a short term thing
   provisioner "local-exec" {
-    command = "aws ecs run-task --cluster ${var.cluster} --task-definition ${aws_ecs_task_definition.service-task.arn}"
+    command = "aws ecs run-task --cluster ${var.cluster} --task-definition ${aws_ecs_task_definition.service-task.arn} --region ${var.aws_region}"
   }
 
   depends_on = ["aws_iam_role.task_role"]

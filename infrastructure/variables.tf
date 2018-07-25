@@ -135,7 +135,7 @@ variable "use_cloudfront" {
 }
 
 variable "cloudfront_log_bucket" {
-  default     = "dea-cloudfront-logs.s3.amazonaws.com"
+  default     = "d61-datacube-cloudfront-logs.s3.amazonaws.com"
   description = "S3 Bucket to store cloudfront logs"
 }
 

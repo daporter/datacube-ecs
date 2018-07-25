@@ -34,7 +34,7 @@ module "docker_help" {
 
 locals {
   # base url that corresponds to the Route53 zone
-  base_url = "dea.gadevs.ga"
+  base_url = "data-cube.d61.io"
 
   # url that points to the service
   public_url = "datacube-wms.${local.base_url}"
