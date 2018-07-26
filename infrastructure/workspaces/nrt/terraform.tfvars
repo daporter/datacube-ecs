@@ -17,7 +17,7 @@ docker_image = "opendatacube/wms:mdba"
 docker_command = "gunicorn -b 0.0.0.0:8000 -w 4 --timeout 60 datacube_wms.wsgi"
 
 environment_vars = {
-  "WMS_CONFIG_URL" = "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/prod/services/wms/nrt/wms_cfg.py"
+  "WMS_CONFIG_URL" = "https://gist.githubusercontent.com/daporter/1e479c65cf9ea911e9ea841b9b8e0f42/raw/ce8f4d0b718c254fe51c75b6eb3f3de1dd212164/wms_cfg.py"
 }
 
 # DNS address for the WMS service
