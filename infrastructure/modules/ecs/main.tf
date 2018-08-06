@@ -151,8 +151,8 @@ resource "aws_iam_policy" "bucket_access" {
                 "s3:ListBucket"
             ],
             "Resource": [
-                "arn:aws:s3:::dea-public-data",
-                "arn:aws:s3:::dea-public-data/*"
+                "arn:aws:s3:::landsat-pds",
+                "arn:aws:s3:::landsat-pds"
             ]
         }
     ]
