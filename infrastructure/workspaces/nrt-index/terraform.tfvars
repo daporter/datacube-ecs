@@ -14,7 +14,7 @@ database = "nrtprod"
 name = "datacube-wms-index"
 
 # The docker image to deploy
-docker_image = "geoscienceaustralia/datacube-wms:aux_index"
+docker_image = "daporter/datacube-wms:aux_index"
 
 # environment variables configuring the docker container
 environment_vars = {
