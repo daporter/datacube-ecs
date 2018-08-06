@@ -19,7 +19,7 @@ docker_image = "daporter/datacube-wms:aux_index"
 # environment variables configuring the docker container
 environment_vars = {
   "DC_S3_INDEX_BUCKET" = "landsat-pds"
-  "DC_S3_INDEX_PREFIX" = "c1/L8/"
+  "DC_S3_INDEX_PREFIX" = "c1/L8"
   "DC_S3_INDEX_SUFFIX" = "_MTL.txt"
   "WMS_CONFIG_URL"     = "https://gist.githubusercontent.com/daporter/1e479c65cf9ea911e9ea841b9b8e0f42/raw/ce8f4d0b718c254fe51c75b6eb3f3de1dd212164/wms_cfg.py"
 }
