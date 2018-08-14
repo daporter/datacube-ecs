@@ -21,5 +21,5 @@ name = "datacube-wms-db"
 docker_image = "geoscienceaustralia/datacube-wms:aux_setup"
 
 environment_vars = {
-  "PRODUCT_URLS" = "raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/prod/products/nrt/landsat/products.yaml:raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/prod/products/nrt/sentinel/products.yaml"
+  "PRODUCT_URLS" = "raw.githubusercontent.com/daporter/prepare_script_landsat/master/ls_usgs.yaml"
 }
