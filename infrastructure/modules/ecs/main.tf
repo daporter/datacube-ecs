@@ -152,7 +152,7 @@ resource "aws_iam_policy" "bucket_access" {
             ],
             "Resource": [
                 "arn:aws:s3:::landsat-pds",
-                "arn:aws:s3:::landsat-pds"
+                "arn:aws:s3:::landsat-pds/*"
             ]
         }
     ]
